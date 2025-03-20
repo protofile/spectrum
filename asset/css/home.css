@@ -1,0 +1,75 @@
+.top-section{
+    background-image: url('../images/background-image/home-top-bg.png');
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-section-mid-text{
+    width: 648px;
+    max-width: 100%;
+    text-align: center;
+}
+.top-section h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 0;
+    line-height: 100%;
+}
+.top-section h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.description{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    max-width: 834px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-us{
+    background-image: url("../images/background-image/home-about-us-bg.png");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 120px;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.title-style span{
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+    background-color: #E63D00;
+}
+.title-style p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+.title-custom-color{
+    font-size: 48px;
+}
+.title-custom-color span:nth-child(2){
+    color: #04B9CB;
+    font-weight: bold;
+}
