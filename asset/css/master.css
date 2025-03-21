@@ -4,6 +4,22 @@ body{
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.button-light-blue{
+    background-color: #04B9CB;
+    padding: 12px 24px;
+    display: inline-block;
+    width: max-content;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+    font-family: "Kanit", sans-serif;
+}
 header{
     position: fixed;
     top: 0;
