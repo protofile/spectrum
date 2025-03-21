@@ -75,6 +75,7 @@
 }
 .title-custom-color{
     font-size: 48px;
+    line-height: 100%;
 }
 .title-custom-color span:nth-child(2){
     color: #04B9CB;
@@ -194,4 +195,143 @@
 .brand-item span:nth-child(2){
     font-size: 30px;
     font-weight: bold;
+}
+.featured-work{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-gallery{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+.gallery-row{
+    position: relative;
+    cursor: pointer;
+    width: 252px;
+    height: 297px;
+    overflow: hidden;
+}
+.gallery-row:hover .gallery-content{
+    top: 0;
+}
+.gallery-img-container{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.gallery-content{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 16px;
+    transition: .3s all;
+    width: 100%;
+    height: 100%;
+}
+.gallery-content p,
+.gallery-content span{
+    position: relative;
+    z-index: 1;
+}
+.gallery-content p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 6px;
+}
+.gallery-content span{
+    font-size: 14px;
+}
+.gallery-content-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+.gallery-row-2{
+    margin-top: 60px;
+}
+.gallery-row-4{
+    height: 420px;
+}
+.gallery-row-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-us{
+    max-width: 1200px;
+    margin: auto;
+}
+.contact-us > *{
+    margin-top: 20px;
+}
+.contact-us-wrapper{
+    display: flex;
+    gap: 50px;
+}
+.contact-us-wrapper > *{
+    flex: 1;
+}
+.contact-us-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+form input,
+form textarea{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+}
+form input:hover,
+form input:focus,
+form textarea:hover,
+form textarea:focus{
+    box-shadow: inset 0 0 0 2px #04B9CB;
+}
+.form-group{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.form-group > *{
+    flex: 1;
+}
+form button{
+    background-color: #04B9CB;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
 }
