@@ -282,6 +282,7 @@
 .contact-us{
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 100px;
 }
 .contact-us > *{
     margin-top: 20px;
@@ -334,4 +335,55 @@ form button{
     border-radius: 8px;
     font-weight: bold;
     border: none;
+}
+.footer-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer-wrapper > *{
+    flex:1;
+}
+.footer-left > img{
+    margin-bottom: 40px;
+}
+.identity-list{
+    margin-bottom: 20px;
+}
+.identity-list > *{
+    vertical-align: middle;
+}
+.identity-list > :nth-child(2){
+    margin-left: 10px;
+}
+.footer-mid > hr{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.footer-mid-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.icon-list a{
+    display: inline-block;
+    background-color: #04B9CB;
+    padding: 12px;
+    border-radius: 30px;
+    line-height: 0;
+}
+.footer-right-container{
+    float: right;
+}
+.footer-wrapper h3{
+    margin-top: 0;
+}
+.footer-bottom{
+    background-color: #04B9CB;
+    text-align: center;
+    padding: 20px;
 }
