@@ -6,6 +6,7 @@ body{
     color: white;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -30,6 +31,7 @@ header{
     left: 0;
     right: 0;
     padding:2rem 1rem;
+    z-index: 10;
 }
 .header-container{
     width: 1200px;
@@ -67,4 +69,29 @@ header{
 }
 .menu-dropdown li:nth-child(2){
     margin-left: 3px;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.title-style span{
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+    background-color: #E63D00;
+}
+.title-style p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+.title-custom-color{
+    font-size: 48px;
+    line-height: 100%;
+}
+.title-custom-color span:nth-child(2){
+    color: #04B9CB;
+    font-weight: bold;
 }
